@@ -1,8 +1,8 @@
 import requests
 import json
 import tag_base as tag
-url = "http://10.187.132.213/api/2.0/channels/config/.json"
-ip = '10.187.132.213'
+url = "url" //url goes here
+ip = 'ip' //ip address
 
 base_url = "http://{ip}/api/2.0/".format(ip=ip)
 get_channel_path = "channels/config/.json"
